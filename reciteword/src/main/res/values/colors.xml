@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="app_bg">#f6f6f6</color>
+    <color name="color_999999">#999999</color>
+
+
+    <color name="color_fff">#fff</color>
+    <color name="color_333333">#333333</color>
+    <color name="color_30b1ff">#30b1ff</color>
+    <color name="color_666666">#666666</color>
+
+    <color name="color_1e9e92">#1e9e92</color>
+    <color name="color_ececec">#ececec</color>
+    <color name="tab_sel_color">#37B6CA</color>
+    <color name="color_888888">#888888</color>
+    <color name="color_fb535f">#FB535F</color>
+    <color name="color_fb7474">#FB7474</color>
+    <color name="color_e9ad1d">#e9ad1d</color>
+
+
+    <!-- 背景色 -->
+    <color name="color_f5f5f5">#F5F5F5</color>
+    <color name="color_fd6d6d">#FD6D6D</color>
+    <color name="color_3f3f3f">#3f3f3f</color>
+    <color name="color_56bd99">#56bd99</color>
+    <color name="color_efa85c">#efa85c</color>
+
+    <color name="color_30ffc7">#30ffc7</color>
+    <color name="color_1bc9b9">#1bc9b9</color>
+    <color name="color_dedede">#dedede</color>
+
+    <color name="color_cccccc">#cccccc</color>
+
+    <color name="color_f0f0f0">#f0f0f0</color>
+    <color name="color_fbba1f">#FBBA1F</color>
+    <color name="color_eeeeee">#eeeeee</color>
+    <color name="color_fee5ab">#fee5ab</color>
+    <color name="color_151515">#151515</color>
+
+    <color name="color_bbbbbb">#bbbbbb</color>
+    <color name="color_348fd4">#348fd4</color>
+    <color name="color_535353">#535353</color>
+
+    <color name="color_4a90e2">#4A90E2</color>
+    <color name="color_fb7d57">#FB7D57</color>
+
+    <color name="color_b5b5b5">#b5b5b5</color>
+
+
+
+    <color name="__picker_pager_bg">#000000</color>
+    <color name="__picker_selected_bg">#44000000</color>
+    <color name="__picker_black_40">#282828</color>
+    <color name="__picker_common_primary">#f3f3f3</color>
+
+    <color name="__picker_text_40">#282828</color>
+    <color name="__picker_text_80">#505050</color>
+    <color name="__picker_text_120">#787878</color>
+    <color name="__picker_item_photo_border_selected">#ff99cc00</color>
+    <color name="__picker_item_photo_border_n">#33ffffff</color>
+
+    <color name="__picker_item_selected_cover">#99000000</color><!--70%BU透明度-->
+
+    <color name="__picker_item_unselected_center">#00000000</color><!--100%透明度-->
+    <color name="__picker_item_unselected_border">#40000000</color><!--25%透明度-->
+
+
+    <color name="color_222222">#222222</color>
+    <color name="color_19C9B9">#19C9B9</color>
+    <color name="color_8e8d8d">#8E8D8D</color>
+    <color name="color_f0a85c">#F0A85C</color>
+    <color name="color_d06b61">#D06B61</color>
+
+
+    <color name="color_ff8f00">#ff8f00</color>
+    <color name="color_8c5ede">#8c5ede</color>
+    <color name="color_2196f3">#2196f3</color>
+    <color name="color_8ad8ff">#8ad8ff</color>
+    <color name="color_fa9999">#fa9999</color>
+    <color name="color_a7a7a7">#A7A7A7</color>
+    <color name="color_ffc000">#FFC000</color>
+    <color name="color_3b3b3b">#3B3B3B</color>
+    <color name="color_ffa250">#FFA250</color>
+    <color name="color_f32613">#F32613</color>
+    <color name="color_33FF3B30">#33FF3B30</color>
+    <color name="color_007aff">#007AFF</color>
+    <color name="color_1b9e92">#1B9E92</color>
+    <color name="color_efeff4">#EFEFF4</color>
+    <color name="color_ff3b30">#FF3B30</color>
+    <color name="color_e3e3e3">#E3E3E3</color>
+    <color name="color_cc8140">#CC8140</color>
+    <color name="color_3fa0ff">#3FA0FF</color>
+    <color name="color_3280cc">#3280CC</color>
+    <color name="color_f3f3f3">#f3f3f3</color>
+    <color name="color_ff5353">#FF5353 </color>
+    <color name="color_dcf5f0">#DCF5F0</color>
+    <color name="color_fafafa">#FAFAFA</color>
+    <color name="color_f8f8fa">#f8f8fa</color>
+    <color name="color_e1ffef">#E1FFEF</color>
+    <color name="color_00b60c">#00B60C</color>
+    <color name="color_f1f1f1">#F1F1F1</color>
+    <color name="color_9f9f9f">#9F9F9F</color>
+    <color name="color_fafbfc">#FAFBFC</color>
+    <attr format="color|reference" name="themeColor"/>
+    <attr format="color|reference" name="widgetBackground"/>
+    <attr format="color|reference" name="widgetBackgroundDark"/>
+    <attr format="color|reference" name="widgetBackgroundTitle"/>
+    <color name="bg_gray">#f1f1f1</color>
+    <color name="bg_gray_pressed">#e8e8e8</color>
+    <color name="bg_position_bar_down">#1A8BC34A</color>
+    <color name="bg_position_bar_up">#0D8BC34A</color>
+    <color name="brown">#d54c1c</color>
+    <color name="check_bg">#f1f1f1</color>
+    <!--<color name="colorPrimary">#ffeeeeee</color>-->
+    <color name="divider_gray">#cbcbcb</color>
+    <color name="drop_down_selected">#8BC34A</color>
+    <color name="drop_down_unselected">#808080</color>
+    <color name="gray">#cccccc</color>
+    <color name="list_divider_dark">#ff666666</color>
+    <color name="list_divider_light">#ffe0e0e0</color>
+    <color name="mask_color">#88888888</color>
+    <color name="md_amber_500">#ffc107</color>
+    <color name="md_amber_700">#ffa000</color>
+    <color name="md_blue_500">#5677fc</color>
+    <color name="md_blue_700">#455ede</color>
+    <color name="md_blue_grey_500">#607d8b</color>
+    <color name="md_blue_grey_700">#455a64</color>
+    <color name="md_brown_500">#795548</color>
+    <color name="md_brown_700">#5d4037</color>
+    <color name="md_cyan_500">#00bcd4</color>
+    <color name="md_cyan_700">#0097a7</color>
+    <color name="md_deep_orange_500">#ff5722</color>
+    <color name="md_deep_orange_700">#e64a19</color>
+    <color name="md_deep_purple_500">#673ab7</color>
+    <color name="md_deep_purple_700">#512da8</color>
+    <color name="md_green_500">#259b24</color>
+    <color name="md_green_700">#ff3c3c3c</color>
+    <color name="md_grey_500">#9e9e9e</color>
+    <color name="md_grey_700">#616161</color>
+    <color name="md_indigo_500">#3f51b5</color>
+    <color name="md_indigo_700">#303f9f</color>
+    <color name="md_light_blue_500">#03a9f4</color>
+    <color name="md_light_blue_700">#0288d1</color>
+    <color name="md_light_green_500">#8bc34a</color>
+    <color name="md_light_green_700">#689f38</color>
+    <color name="md_lime_500">#cddc39</color>
+    <color name="md_lime_700">#afb42b</color>
+    <color name="md_orange_500">#ff9800</color>
+    <color name="md_orange_700">#f57c00</color>
+    <color name="md_pink_500">#e91e63</color>
+    <color name="md_pink_700">#c2185b</color>
+    <color name="md_purple_500">#9c27b0</color>
+    <color name="md_purple_700">#7b1fa2</color>
+    <color name="md_red_500">#e51c23</color>
+    <color name="md_red_700">#d01716</color>
+    <color name="md_teal_500">#009688</color>
+    <color name="md_teal_700">#00796b</color>
+    <color name="md_white">#ffffff</color>
+    <color name="md_yellow_500">#ffeb3b</color>
+    <color name="md_yellow_700">#fbc02d</color>
+    <color name="province_line_border">#C7C7C7</color>
+    <color name="selectable_item_background_general_dark_accent">#ff666666</color>
+    <color name="selectable_item_background_general_dark_normal">#ff3c3c3c</color>
+    <color name="selectable_item_background_general_dark_pressed">#ff444444</color>
+    <color name="selectable_item_background_general_light_accent">#ffcccccc</color>
+    <color name="selectable_item_background_general_light_normal">@android:color/white</color>
+    <color name="selectable_item_background_general_light_pressed">#ffeeeeee</color>
+    <color name="text_color_dark">#de000000</color>
+    <color name="text_color_light">#b3ffffff</color>
+    <color name="theme_black_7f">#8f000000</color>
+    <color name="txt_black">#212121</color>
+    <color name="txt_gray">#808080</color>
+    <color name="txt_light_gray">#CCCCCC</color>
+    <color name="txt_link_blue">#1ea5ff</color>
+    <color name="un_press_color">#8BC34A</color>
+    <color name="white">#ffffff</color>
+    <color name="window_background_dark">#ff303030</color>
+    <color name="window_background_light">#ffeeeeee</color>
+    <color name="color_ff333333">#FF333333</color>
+    <color name="color_line">#e2e2e2</color>
+</resources>
