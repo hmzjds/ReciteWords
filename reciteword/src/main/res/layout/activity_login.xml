@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="50dp"
+    android:paddingRight="50dp"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/tv_version"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/gray"
+        />
+
+    <!--<ImageView-->
+        <!--android:id="@+id/iv_head"-->
+        <!--android:layout_width="60dp"-->
+        <!--android:layout_height="60dp"-->
+        <!--android:layout_marginTop="39dp"-->
+        <!--android:layout_marginBottom="20dp"-->
+        <!--android:layout_gravity="center_horizontal"-->
+        <!--android:src="@mipmap/icon_login"/>-->
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/color_ff333333"
+        android:text="@string/app_name"
+        android:gravity="center"
+        android:layout_marginBottom="50dp"
+        android:textSize="14sp"/>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+        <ImageView
+            android:id="@+id/iv_delName"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:scaleType="center"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:visibility="invisible"
+            android:clickable="true"
+            android:background="?android:attr/selectableItemBackground"
+            android:src="@mipmap/icon_del"/>
+        <EditText
+            android:id="@+id/name_et"
+            style="@style/default_text"
+            android:layout_width="match_parent"
+            android:layout_toLeftOf="@+id/iv_delName"
+            android:layout_height="30dp"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/color_333333"
+            android:maxLines="1"
+            android:textColorHint="@color/color_999999"
+            android:gravity="center_vertical"
+            android:background="@null"
+            android:hint="@string/enterAccount" />
+
+    </RelativeLayout>
+
+    <View
+        style="@style/baseLine_horizontal"/>
+
+    <RelativeLayout
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="28dp"
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+        <ImageView
+            android:id="@+id/iv_delPwd"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:scaleType="center"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:visibility="invisible"
+            android:clickable="true"
+            android:background="?android:attr/selectableItemBackground"
+            android:src="@mipmap/icon_del"/>
+        <EditText
+            android:id="@+id/password_et"
+            style="@style/default_text"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_toLeftOf="@+id/iv_delPwd"
+            android:textColor="@color/color_333333"
+            android:background="@null"
+            android:maxLines="1"
+            android:textColorHint="@color/color_999999"
+            android:hint="@string/enterPwd"
+            android:inputType="textPassword"/>
+    </RelativeLayout>
+
+
+    <View
+        style="@style/baseLine_horizontal"/>
+
+    <Button
+        android:id="@+id/login_bt"
+        style="@style/default_text"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/bg_radius21_1e9e92"
+        android:textColor="@color/color_fff"
+        android:textSize="16sp"
+        android:text="@string/login" />
+
+    <RelativeLayout
+        android:layout_marginTop="13dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/forget_password"
+            style="@style/default_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/color_1e9e92"
+            android:text="@string/forgotPwd" />
+
+        <CheckBox
+            android:id="@+id/keep_password"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            style="@style/CustomCheckBoxTheme"
+            android:text="@string/remberPwd"
+            android:gravity="center"
+            android:background="@null"
+            android:textColor="@color/color_666666"
+            android:paddingLeft="5dp"
+
+            android:checked="true"/>
+
+    </RelativeLayout>
+
+</LinearLayout>
