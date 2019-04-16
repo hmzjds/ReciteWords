@@ -8,6 +8,43 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <!-- Base application theme. -->
+    <style name="MyAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="colorPrimary">@color/color_999999</item>
+        <item name="colorPrimaryDark">@color/white</item>
+        <item name="colorAccent">@color/color_1e9e92</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="android:listDivider">@color/list_divider_light</item>
+        <item name="widgetBackground">@color/selectable_item_background_general_light_normal</item>
+        <item name="widgetBackgroundDark">@android:color/transparent
+        </item>
+        <item name="widgetBackgroundTitle">@android:color/white</item>
+        <item name="themeColor">@android:color/white</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+    </style>
+
+    <style name="BaseAppThemeLight" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="colorPrimary">?attr/themeColor</item>
+        <item name="colorPrimaryDark">?attr/themeColor</item>
+        <item name="colorAccent">#1e9e92</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="android:windowBackground">@color/window_background_light</item>
+        <item name="android:listDivider">@color/list_divider_light</item>
+        <item name="widgetBackground">@color/selectable_item_background_general_light_normal</item>
+        <item name="widgetBackgroundDark">@color/selectable_item_background_general_light_pressed
+        </item>
+        <item name="widgetBackgroundTitle">@android:color/white</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
     <!-- 默认字 -->
     <style name="default_text">
         <item name="android:layout_width">wrap_content</item>
@@ -22,6 +59,7 @@
         <item name="android:layout_height">1px</item>
         <item name="android:background">@color/color_line</item>
     </style>
+
     <style name="baseLine_vertical">
         <item name="android:layout_width">1px</item>
         <item name="android:layout_height">match_parent</item>
@@ -32,5 +70,19 @@
     <style name="CustomCheckBoxTheme" parent="@android:style/Widget.CompoundButton.CheckBox">
         <item name="android:button">@drawable/remember_selector</item>
     </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="LoadingDialog" parent="@android:style/Theme.Holo.Dialog.NoActionBar">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
 </resources>
